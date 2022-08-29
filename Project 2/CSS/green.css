@@ -1,0 +1,352 @@
+@import url(//db.onlinewebfonts.com/c/9a7e574c3eda05d71d03345d3f9e268e?family=FuturaLTW01-LightOblique);
+
+
+body {
+    overflow-x: hidden;
+}
+.logo{
+    width: 130px;
+    height: 123px;
+    position: relative;
+    left: 320px;
+    top: 26px;
+}
+.navbar{
+    overflow: hidden;
+    /* background-color: #333; */
+    font-family: Arial;
+    margin-left: 450px;
+    margin-top: -60px;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.Home{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white; 
+     background-color: #012646; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 20px;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* font-size: 15px; */
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: skyblue;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: center;
+} 
+.dropdown-content a {
+    float: none;
+    color: #012646;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    /* text-align: left; */
+}
+
+ .dropdown-content a:hover {
+    background-color: #ddd; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dum {
+    background-color: rgb(191, 214, 234, 1);
+    position: relative;
+    /* left: 19px; */
+    width: 100%;
+    height: 900px;
+}
+.pitch {
+    position: absolute;
+    left: 28rem;
+    top:30px;
+    letter-spacing: 0.4em;
+    font-size: 26px;
+    font: 'palatino linotype',serif;
+    color: rgb(1,38,70);
+}
+.camp {
+    position: absolute;
+    top: 90px;
+    left: 30rem;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: futura-lt-w01-book,sans-serif;
+    color: rgb(47,46,46);
+}
+.Addie {
+    color: rgb(1,38,70); 
+    position: absolute;
+    top: 123px;
+    left: 34rem;
+}
+.Address {
+    position: absolute;
+    top: 111px;
+    left: 35.5rem;
+    color: #2f2e2e;
+    font-weight: 200;
+    font-family: futura-lt-w01-light,sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.phone {
+    color: rgb(1,38,70); 
+    position: absolute;
+    top: 150px;
+    left: 34rem;
+}
+.fone {
+    position: absolute;
+    top: 139px;
+    left: 35.5rem;
+    color: #2f2e2e;
+    font-weight: 200;
+    font-family: futura-lt-w01-light,sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.fax {
+    color: rgb(1,38,70); 
+    position: absolute;
+    top: 180px;
+    left: 33.5rem;
+}
+.fac {
+    position: absolute;
+    top: 168px;
+    left: 35.5rem;
+    color: #2f2e2e;
+    font-weight: 200;
+    font-family: futura-lt-w01-light,sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+ .envelope {
+    color: rgb(1,38,70); 
+    position: absolute;
+    top: 210px;
+    left: 34rem;
+}
+.lope {
+    position: absolute;
+    top: 210px;
+    left: 35.5rem;
+    color: #2f2e2e;
+    font-weight: 200;
+    font-family: futura-lt-w01-light,sans-serif;
+    font-size: 16px;
+    line-height: 1.5em; 
+    cursor: pointer;
+} 
+.build {
+    position: absolute;
+    top: 290px;
+    left: 36rem;
+    font-family: futura-lt-w05-light,sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: rgb(47,46,46);
+}
+.builder {
+    background-color: white;
+    height: 120.5px;
+    width: 180px;
+    position: relative;
+    top: 350px;
+    left: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bim {
+    cursor: pointer;
+}
+.girl {
+    position: relative;
+    top: 20px;
+    letter-spacing: 0.5em;
+    font-size: 15px;
+    font-family: futura-lt-w01-book,sans-serif;
+    text-align: center;
+    color: inherit;
+    cursor: pointer;
+}
+.zam {
+    background-color: white;
+    height: 140px;
+    width: 180px;
+    position: relative;
+    top: 230px;
+    left: 39rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bimmer {
+    cursor: pointer;
+}
+.xam {
+    position: relative;
+    top: 20px;
+    letter-spacing: 0.5em;
+    font-size: 15px;
+    font-family: futura-lt-w01-book,sans-serif;
+    color: inherit;
+    cursor: pointer;
+    text-align: center;
+}
+.cess {
+    background-color: white;
+    height: 120px;
+    width: 180px;
+    position: relative;
+    top: 90px;
+    left: 53rem; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.big {
+    position: relative;
+    top: -10px;
+}
+.sess {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    letter-spacing: 0.5em;
+    font-size: 15px;
+    font-family: futura-lt-w01-book,sans-serif;
+    color: inherit;
+    cursor: pointer;
+    text-align: center;
+}
+.building {
+    position: relative;
+    top: 170px;
+    left: 13rem ;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(47,46,46);
+    font-family: futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+}
+.cal {
+    position: relative;
+    left:27rem;
+    top: 35px;
+    letter-spacing: 0.3em;
+    font-size: 26px;
+    font: 'palatino linotype',serif;
+    color: rgb(1,38,70);
+    
+}
+.google {
+    position: relative;
+    left:16rem;
+}
+.gum {
+    background-color: rgb(191, 214, 234, 1);
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 600px;
+}
+.sitch {
+    position: absolute;
+    left: 27rem;
+    top:30px;
+    letter-spacing: 0.3em;
+    font-size: 26px;
+    font: 'palatino linotype',serif;
+    color: rgb(1,38,70);
+}
+.Admin {
+    position: relative;
+    top: 90px;
+    left: 20rem;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: futura-lt-w05-light,sans-serif;
+    color: rgb(47,46,46);
+}
+.pall {
+    position: relative;
+    top: 80px;
+    left: 20rem;
+    font-size: 16px;
+    font-family: futura-lt-w05-light,sans-serif;
+    color: rgb(47,46,46);
+    line-height: 20px;
+}
+.laurie {
+    position: relative;
+    left: 12rem;
+    bottom: 157px;
+    line-height: 20px;
+    cursor:pointer;
+}
+.chers {
+    position: relative;
+    top: -30px;
+    left: 20rem;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: futura-lt-w05-light,sans-serif;
+    color: rgb(47,46,46);
+}
+.kind{
+    position: relative;
+    top: -25px;
+    left: 20rem;
+    font-size: 16px;
+    font-family: futura-lt-w05-light,sans-serif;
+    color: rgb(47,46,46);   
+    cursor: pointer;
+}
+.gart {
+    line-height: 20px;
+}
+.Edu {
+    position: relative;
+    bottom: -10px;
+    left: 20rem;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: futura-lt-w05-light,sans-serif;
+    color: rgb(47,46,46);
+}
+.spen{
+    position: relative;
+    bottom: -2px;
+    left: 20rem;
+    font-size: 16px;
+    font-family: futura-lt-w05-light,sans-serif;
+    color: rgb(47,46,46);  
+    line-height: 20px;
+}
